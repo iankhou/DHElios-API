@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    'Welcome to DHElios'
+    return 'Welcome to DHElios'
 
 
 @app.route('/time')
